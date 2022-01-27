@@ -1,29 +1,42 @@
-- **Compact MMDetection For Tomato Detect**
+- **Compact MMDetection For Tomato Detect in Jetson Nano Board**
 
 ## Introduction
 
 image detection & segmentation for tomato using mmdetection library (mmdetection original: https://github.com/open-mmlab/mmdetection )
 
+
+
 ## Installation
 
-- **Miniforge(conda) Must Be Prepared **
+- **Miniforge(conda) Must Be Prepared**
 - **Conda Environment Prepare**
-- ```git clone ~~```
+- ```git clone https://github.com/lleunyoungll/mmdetectionTomato_JetsonNano.git```
 - ```cd mmdetectionTomato_JetsonNano ```
 - ```conda env create --file mmdet369.yaml```
 
+
+
 ## Test
+
 - first, prepare model weight in "link" here.
 - make 'work_dir' directory in mmdetectionTomato_JetsonNano, and copy and paste model file in 'work_dir'
 - ```python testGUIToMakeSegResultMask.py```
 - result images will be in 'testresult/' folder
 
+
+
 ## Custom Dataset
+
 - preparing..
-- 
+
+
+
 ## Train
+
 - preparing..
-- 
+
+
+
 ## Benchmark and model zoo
 
 Results and models are available in the [model zoo](docs/model_zoo.md).
@@ -40,6 +53,7 @@ Supported methods:
 - [x] [YOLACT (ICCV'2019)](configs/yolact/README.md)
 
 Some other methods are also supported in [projects using MMDetection](./docs/projects.md).
+
 
 
 ## Citation
@@ -59,6 +73,8 @@ If you use this toolbox or benchmark in your research, please cite this project.
   year={2019}
 }
 ```
+
+
 
 ## Projects in OpenMMLab
 
