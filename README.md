@@ -41,7 +41,7 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 
 - open a terminal & conda and activate mmdet359 environment
 - ```cd mmdetectionTomato_JetsonNano```
-- ```python toCOCOdata_8timeSmallSize.sh```
+- ```./toCOCOdata_8timeSmallSize.sh```
 - then 'Train', 'Test', 'Validation' 3 folders will be made in that directory(mmdetectionTomato_JetsonNano)
 - ```python tools/train.py customized_config.py```
 - then epoch files will be put in 'work_dir' directory
