@@ -79,7 +79,7 @@ if __name__ =='__main__':
     S.load_model()
     win=Tk() #창 생성
     win.geometry("500x200")
-    win.title("[PlantCare]토마토  프로그램")
+    win.title("[PlantCare]토마토 인식 프로그램")
     win.option_add("*Font","맑은고딕 10")
     '''
     label=Label(win,text='')
