@@ -19,7 +19,7 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 ## Test
 
 - first, prepare model weight in "link" here.
-- make 'work_dir' directory in mmdetectionTomato_JetsonNano, and copy and paste model file in 'work_dir'
+- make 'work_dir' directory in mmdetectionTomato_JetsonNano, and copy and paste downloaded model weight file in 'work_dir'
 - ```python testGUIToMakeSegResultMask.py```
 - result images will be in 'testresult/' folder
 
