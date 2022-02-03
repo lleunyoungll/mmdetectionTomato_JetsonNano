@@ -29,7 +29,7 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 ## Custom Dataset
 
 - If you want to train for your own dataset. Make labeling data using below annotation tool(Labelme.exe)
-  ㄴ> https://drive.google.com/file/d/16meD3s6r9VsrRfSsUmlaSMnGDiAZ_Sve/view?usp=sharing
+    https://drive.google.com/file/d/16meD3s6r9VsrRfSsUmlaSMnGDiAZ_Sve/view?usp=sharing
 - make labeling like this below ↓
 
   ![labeling](https://user-images.githubusercontent.com/98143576/152295166-4c6797c1-36e3-488a-9ca7-b46204abbce2.gif)
