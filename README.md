@@ -18,8 +18,9 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 
 ## Test
 
-- first, prepare model weight in "link" here.
+- first, prepare model weight in "link" here -> https://drive.google.com/file/d/1Xo-Xk7gN6RBcBHEYGLq_3ZFkQcqPLNSP/view?usp=sharing
 - copy above downloaded model weight file and paste into 'savedModel' directory
+- then, modify 'saved_model.txt' contents to copied model file name
 - ```python testGUIToMakeSegResultMask.py```
 - result images will be in 'testresult/' folder
 
@@ -27,14 +28,21 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 
 ## Custom Dataset
 
-- preparing..
-
+- If you want to train for your own dataset. Make labeling data using below annotation tool(Labelme.exe)
+  ㄴ> https://drive.google.com/file/d/16meD3s6r9VsrRfSsUmlaSMnGDiAZ_Sve/view?usp=sharing
+- make labeling like this
+- If you do labeling, you have image files and json files
+- Delete all files in 'imgjsonDataset_8timeSmallSize' directory, then Put above your image and json files you made in Labelme.exe into 'imgjsonDataset_8timeSmallSize' directory
 
 
 ## Train
 
-- preparing..
-
+- open a terminal & conda and activate mmdet359 environment
+- ```cd mmdetectionTomato_JetsonNano```
+- ```python toCOCOdata_8timeSmallSize.sh```
+- then 'Train', 'Test', 'Validation' 3 folders will be made in that directory(mmdetectionTomato_JetsonNano)
+- ```python tools/train.py customized_config.py```
+- then epoch files will be put in 'work_dir' directory
 
 
 ## Benchmark and model zoo
