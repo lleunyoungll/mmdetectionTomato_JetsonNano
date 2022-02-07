@@ -11,11 +11,19 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 - **Miniforge(conda) Must Be Prepared**
 - **This Source Code Clone↓**
 - ```git clone https://github.com/lleunyoungll/mmdetectionTomato_JetsonNano.git```
-- ```cd mmdetectionTomato_JetsonNano ```
 - **Conda Environment Prepare↓**
 - download conda environment --> https://drive.google.com/file/d/1LuPSAiQs6-HQKoGLJUrMlaEdjGjGtTV4/view?usp=sharing
 - unzip that above downloaded folder and copy and paste it to "miniforge installed path"/envs  (ex)"/home/knv/miniforge3/envs")
-- ```sudo apt-get install libopenblas-base libopenmpi-dev```
+- ```sudo apt-get install libopenblas-base libopenmpi-dev``` --> when this script done, torch library will be activated well
+- torchvision install
+- ```sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev```
+- ```git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision```
+- ```cd torchvision```
+- ```export BUILD_VERSION=0.9.0```
+- ```python setup.py install –user```
+- ```cd ..```
+- enter "mmdetectionTomato_JetsonNano" directory ```cd mmdetectionTomato_JetsonNano```
+- ```python setup.py develop```
 
 
 
