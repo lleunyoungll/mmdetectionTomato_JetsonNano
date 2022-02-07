@@ -13,7 +13,7 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 - ```git clone https://github.com/lleunyoungll/mmdetectionTomato_JetsonNano.git```
 - ```cd mmdetectionTomato_JetsonNano ```
 - **Conda Environment Prepare↓**
-- download conda environment --> https://drive.google.com/drive/folders/1Eo8vwRxgfMwaBCUTrVDftZT5vCIfid1B?usp=sharing
+- download conda environment --> https://drive.google.com/file/d/1LuPSAiQs6-HQKoGLJUrMlaEdjGjGtTV4/view?usp=sharing
 - copy and paste that above downloaded folder to "miniforge installed path"/envs  (ex)"/home/knv/miniforge3/envs")
 
 
