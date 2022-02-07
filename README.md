@@ -15,6 +15,7 @@ image detection & segmentation for tomato using mmdetection library (mmdetection
 - **Conda Environment Prepare↓**
 - download conda environment --> https://drive.google.com/file/d/1LuPSAiQs6-HQKoGLJUrMlaEdjGjGtTV4/view?usp=sharing
 - unzip that above downloaded folder and copy and paste it to "miniforge installed path"/envs  (ex)"/home/knv/miniforge3/envs")
+- ```sudo apt-get install libopenblas-base libopenmpi-dev```
 
 
 
